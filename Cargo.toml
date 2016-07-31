@@ -28,6 +28,7 @@ groupable = "0.2"
 mustache = "0.6"
 lazy_static = "0.1"
 modifier = "0.1"
+intrepion_x_fizz_buzz = "0.1.1"
 
 [dependencies.hyper]
 version = "0.9"
@@ -136,3 +137,18 @@ path = "examples/https.rs"
 
 name = "no_macro_custom_data"
 path = "examples/no_macro_custom_data.rs"
+
+[[example]]
+
+name = "goodbye_world"
+path = "examples/goodbye_world.rs"
+
+[[example]]
+
+name = "goodbye_world_macro"
+path = "examples/goodbye_world_macro.rs"
+
+[[example]]
+
+name = "fizz_buzz"
+path = "examples/fizz_buzz.rs"

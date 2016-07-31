@@ -27,6 +27,8 @@ mod examples {
     mod enable_cors;
     mod form_data;
     mod integration_testing;
+    mod goodbye_world;
+    mod fizz_buzz;
 
     #[cfg(feature = "ssl")]
     mod https;
